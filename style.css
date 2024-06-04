@@ -5,8 +5,8 @@
 
 :root {
   --background: rgb(45, 45, 45);
-  --imput-color: rgb(227, 221, 221);
-  --text: #727476;
+  --imput-color: rgb(255, 255, 255);
+  --text: #eef1f4;
 }
 
 * {
@@ -18,10 +18,20 @@
   font-family: sanfrancisco;
 }
 
+body {
+  background: rgb(33, 11, 32);
+  background: radial-gradient(
+    circle,
+    rgba(33, 11, 32, 1) 0%,
+    rgba(54, 3, 59, 1) 50%,
+    rgba(23, 1, 21, 1) 100%
+  );
+}
+
 header {
   display: flex;
   background: transparent;
-  backdrop-filter: 10px;
+  backdrop-filter: 30px;
   border-bottom: 1px solid gray;
   justify-content: space-between;
   align-items: center;
